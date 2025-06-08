@@ -67,10 +67,6 @@ h1, h2 {
     color:  var(--primary-color);
 }
 
-
-.hero {
-    position: relative;
-}
 .hero img {
     display: block;
     width: 100%;
@@ -110,12 +106,11 @@ h1 {
 
 .hero {
     position: relative;
-    margin-bottom: 0; 
-    margin-bottom: 0;
+    margin-bottom: -200px;
 }
-.hero + section {
-    margin-top: 0;
-    padding-top: 0;
+
+.history h2, .adventure h2 {
+    padding: 3rem;
 }
 
 /* History Section */
