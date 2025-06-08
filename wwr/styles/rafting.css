@@ -179,6 +179,188 @@ section h2 {
     color: #331832;
 }
 
+/* Contact Page Additions */
+
+.contact-flex-row {
+    justify-content: flex-end;
+}
+.contact-hero-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.company-info {
+    margin: 32px 0 24px 0;
+    padding: 24px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.09);
+}
+
+.company-info h2 {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    margin-bottom: 16px;
+}
+
+.info-map-container {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.info-details {
+    flex: 1 1 220px;
+    font-size: 1rem;
+    color: #222;
+}
+
+.info-map {
+    flex: 1 1 220px;
+    min-width: 220px;
+}
+
+.info-map iframe {
+    width: 220px;
+    height: 140px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    display: block;
+}
+
+.team-section {
+    margin: 32px 0 24px 0;
+    padding: 24px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.09);
+}
+
+.team-section h2 {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.team-gallery {
+    display: flex;
+    gap: 32px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 8px;
+}
+
+.team-gallery figure {
+    text-align: center;
+    flex: 1 1 120px;
+}
+
+.team-gallery img {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    background: #eee;
+    margin-bottom: 8px;
+}
+
+.team-gallery figcaption {
+    font-size: 1rem;
+    color: #331832;
+}
+
+.team-gallery figcaption span {
+    display: block;
+    font-size: 0.95em;
+    color: #694D75;
+}
+
+.contact-form-section {
+    margin-left: 320px;
+    padding: 24px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.09);
+    align-self: flex-end;
+}
+
+.contact-form-section h2 {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 400px;
+}
+
+.contact-form label,
+.contact-form legend {
+    font-weight: 600;
+    color: #331832;
+    margin-bottom: 4px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: inherit;
+    margin-bottom: 8px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 8px;
+}
+
+.contact-form input[type="radio"] {
+    margin-right: 8px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #331832;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.submit-btn {
+    background: var(--secondary-color);
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 0;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 8px;    
+}
+
+.submit-btn:hover,
+.submit-btn:focus {
+    background: var(--primary-color);
+}
+
 /* Footer */
 footer {
     display: flex;
@@ -212,6 +394,14 @@ footer nav.socialmedia img {
     border-radius: 8px;
     background: #fff;
     padding: 4px;
+}
+
+.wireframe-link {
+    color: var(--accent2-color);
+    margin-left: 24px;
+    font-size: 0.95rem;
+    text-decoration: underline;
+    align-self: flex-end;
 }
 
 

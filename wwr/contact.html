@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Wild Rafting</title>
+    <meta name="description" content="Get in touch with Rapid River Adventures!">
+    <meta name="author" content="Nnanna Arua Uko">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Rafting Logo">
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact-flex-row">
+            <section class="company-info">
+                <h2>Our Information</h2><br>
+                <div class="info-map-container">
+                    <div class="info-details">
+                        <p><strong>Address:</strong>
+                            123 Rapids Lane
+                            River City,<br> CO 80000</p><br>
+                        <p><strong>Phone:</strong> 
+                            (555) 123-4567,<br>
+                            (555) 987-6543</p><br>
+                        <p><strong>Email:</strong> info@wildrafting.com</p>
+                    </div>
+                    <div class="info-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.947186274426!2d-104.9902516846237!3d39.73923597944753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c78d3e2f8b1b7%3A0x8e8f8e8f8e8f8e8f!2sDenver%2C%20CO!5e0!3m2!1sen!2sus!4v1717890000000"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <section class="team-section">
+                <h2>Meet our Team</h2><br>
+                <div class="team-gallery">
+                    <figure>
+                        <img src="images/main_image.jpg" alt="Smiling Guide">
+                        <figcaption>Alex Rivers<br><span>Lead Guide</span></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/main_image.jpg" alt="Happy Reservation Specialist">
+                        <figcaption>Jamie Brooks<br><span>Reservation Specialist</span></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/main_image.jpg" alt="Friendly Safety Officer">
+                        <figcaption>Sam Lee<br><span>Safety Officer</span></figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="contact-form-section">
+                <h2>Get in touch</h2>
+                <form class="contact-form">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Name">
+
+                    <label for="email">Your email</label>
+                    <input type="email" id="email" name="email" required placeholder="Email">
+
+                    <fieldset>
+                        <legend>Purpose of message</legend>
+                        <label><input type="radio" name="purpose" value="general" required> General Inquiry</label><br>
+                        <label><input type="radio" name="purpose" value="reservation"> Reservation question</label><br>
+                        <label><input type="radio" name="purpose" value="website"> Website suggestion</label>
+                    </fieldset>
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Type here"></textarea>
+
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="subscribe">
+                        Please subscribe me to the monthly newsletter
+                    </label>
+
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2005 | White Water Rafting Company | Nnanna Uko</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.jpg" alt="facebook" width="50" height="50">
+            </a>
+            <a href="https://x.com">
+                <img src="images/x.png" alt="X" width="50" height="50">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.jpg" alt="Instagram" width="50" height="50">
+            </a>
+        </nav>
+        <a href="https://app.moqups.com/dZHS51H3LmbdXGhWm7y1Hze6OAB1x1s3/view/page/ad64222d5" target="_blank"
+            class="wireframe-link">Contact Us Wireframe</a>
+    </footer>
+</body>
+
+</html>
